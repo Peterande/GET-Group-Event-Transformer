@@ -1,0 +1,8 @@
+MODEL:
+  TYPE: GET
+  NAME: GET_patch4_window8_48
+  GET:
+    EMBED_DIM: 48
+    DEPTHS: [ 2, 2, 8]
+    NUM_HEADS: [ 3, 6, 12]
+    WINDOW_SIZE: 8
