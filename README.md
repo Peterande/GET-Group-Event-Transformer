@@ -1,3 +1,4 @@
+# ICCV2023: "GET: Group Event Transformer for Event-Based Vision"
 ![teaser](figures/teaser.png)
 ## Installations
 ```Bash 
