@@ -8,7 +8,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install timm yacs spikingjelly termcolor opencv-python 
 ```
 
-## 2️⃣Required Data
+2️⃣## Required Data
 CIFAR10DVS: Auto downloading.<br />
 DVS128Gesture: Download files manually and put files at [datasets/dvs128gesture/download].<br />
 Others: Just follow the spikingjelly instructions to download other datasets if needed.
