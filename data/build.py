@@ -229,7 +229,7 @@ def random_crop(events, spatial_crop_range=[0.7, 126 / 127], time_crop_range=[0.
     min_y, max_y = 0, 127
     min_t, max_t = int(events[0, 0]),  int(events[-1, 0])
 
-    if True:
+    if random.random() > 0.5:
         # Spatial cropping
         scale = torch.rand(2) * (spatial_crop_range[1] - spatial_crop_range[0]) + spatial_crop_range[0]
         crop_size_x = int(scale[0] * (max_x - min_x))
