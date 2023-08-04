@@ -107,7 +107,7 @@ _C.TRAIN.OPTIMIZER.BETAS = (0.9, 0.999)
 _C.TRAIN.OPTIMIZER.MOMENTUM = 0.9
 
 # -----------------------------------------------------------------------------
-# Augmentation settings
+# Mixup settings
 # -----------------------------------------------------------------------------
 _C.AUG = CN()
 # Mixup alpha, mixup enabled if > 0
