@@ -1,6 +1,8 @@
 # ==============================================================================
-# Build GET(nn.Module) with configs.
-# Papers: GET: Group Event Transformer for Event-Based Vision, ICCV 2023.
+# GET: Group Event Transformer.
+# Copyright (c) 2023 The Group Event Transformer Authors.
+# Licensed under The MIT License.
+# Written by Yansong Peng.
 # ==============================================================================
 # GET   [Stage 1 → Stage 2 ... → Stage N]
 # Stage [GTE (1st. stage only) → Blocks → Head (last stage only)]
