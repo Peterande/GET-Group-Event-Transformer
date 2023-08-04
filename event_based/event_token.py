@@ -1,6 +1,7 @@
 # ==============================================================================
-# Convert events into event tokens.
-# Papers: GET: Group Event Transformer for Event-Based Vision, ICCV 2023.
+# Group Token Embedding.
+# Copyright (c) 2023 The Group Event Transformer Authors.
+# Licensed under The MIT License.
 # Written by Yansong Peng.
 # ==============================================================================
 
