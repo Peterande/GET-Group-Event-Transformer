@@ -1,6 +1,6 @@
 # ICCV2023: "GET: Group Event Transformer"
 ![teaser](figures/teaser.png)
-## Installations🫰
+## Installations
 ```Bash 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 pip install timm yacs spikingjelly termcolor opencv-python 
