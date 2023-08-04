@@ -33,7 +33,7 @@ python -m torch.distributed.launch --nproc_per_node 8 --master_port 23333 main.p
 
 ## Evaluation
 **DVS128Gesture**
-**top-1 acc 97.9%**
+**top-1 acc <font color=Blue>97.9%</font>**
 ```Bash
 python -m torch.distributed.launch --nproc_per_node 1 --master_port 23333 main.py \
 --use_env --batch-size 64 --embed_split 48 --group_num 24 --patch_size 4 \
