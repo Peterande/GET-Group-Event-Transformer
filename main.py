@@ -1,8 +1,7 @@
 # ==============================================================================
-# Copyright 2023 The Group Event Transformer Authors.
-# Licensed under The MIT License.
-# you may not use this file except in compliance with the License.
 # Papers: GET: Group Event Transformer for Event-Based Vision, ICCV 2023.
+# Copyright (c) 2023 The Group Event Transformer Authors.
+# Licensed under The MIT License.
 # Written by Yansong Peng.
 # ==============================================================================
 
