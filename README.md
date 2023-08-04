@@ -1,5 +1,5 @@
 # ICCV2023: "GET: Group Event Transformer"
-![teaser width="200" height="200"](figures/teaser.png)
+![teaser](figures/teaser.png)
 ## Installations
 ```Bash 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
