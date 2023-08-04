@@ -2,7 +2,6 @@
 # Build dataset and dataloader with augmentations for training and testing.
 # More details please see: https://github.com/fangwei123456/spikingjelly.git
 # Papers: GET: Group Event Transformer for Event-Based Vision, ICCV 2023.
-# Written by Yansong Peng.
 # ==============================================================================
 
 import os
