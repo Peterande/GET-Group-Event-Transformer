@@ -215,7 +215,7 @@ class GTE(nn.Module):
         super().__init__()
 
         self.in_chans = in_chans
-        padding = ((1 - 1) + 1 * (3 - 1)) // 2
+        padding = ((1 - 1) + 1 * (kernel_size[0] - 1)) // 2
         self.conv = nn.Conv2d(in_chans, hidden_dim // 4, kernel_size=kernel_size, groups=group_num, padding=padding)
         self.mlp = Group_Mlp(hidden_dim // 4, hidden_dim, embed_dim, norm_layer=norm_layer, group_num=1)
         
