@@ -9,9 +9,9 @@ pip install timm yacs spikingjelly termcolor opencv-python
 ```
 
 ## Required Data
-**"CIFAR10DVS"**: Auto downloading.<br />
-**"DVS128Gesture"**: Download files manually, and put files at [datasets/dvs128gesture/download].<br />
-**"Others"**: Follow the spikingjelly instructions to download other datasets if needed.
+**"CIFAR10DVS"**: Auto downloading and splitting by **spikingjelly**.<br />
+**"DVS128Gesture"**: Download files manually, and put files at [datasets/dvs128gesture/download]. Auto splitting by **spikingjelly**.<br />
+**"Others"**: Follow the **spikingjelly** instructions to download other datasets if needed.
 
 ## Evaluation (switch to "master_with_checkpoints" branch)
 ⭐**CIFAR10DVS** **(top-1 acc. 84.8%)**
